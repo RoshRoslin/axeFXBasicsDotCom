@@ -14,8 +14,8 @@
 <!-- for Fixed nav, remove fixed-top Py values and pt-0 from carousel to go back -->
 
 
-<body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3">
+<body id="home" >
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-3" id="main-nav">
       <div class="container">
           <a class="navbar-brand" href="#">AxeFX Basics </a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
@@ -30,7 +30,7 @@
                   <a class="nav-link text-light" href="#">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Tutorials</a>
+                  <a class="nav-link text-light" href="#tutorials">Tutorials</a>
               </li>
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-light" data-toggle="dropdown" href="#">Social Media</a>
@@ -52,13 +52,7 @@
   </nav>
 
   <div class="jumbotron text-center jumbotron-fluid pt-0">
-    <!-- <div class="container">
-      <img class="img-fluid" src="./images/axefxbasicshero.jpg" alt="">
-      <p class="lead"></p>
-      <hr>
-      <p>Axe FX Basics and tutorials to program your Fractal Audio Products</p>
-      <a class="btn btn-primary btn-lg"href="#" role="button">Read More</a>
-    </div> -->
+
 
     <div id="slider" class="carousel slide mb-5" data-ride="carousel">
       <div class="carousel-inner">
@@ -93,20 +87,182 @@
       <a href="#slider" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
       <a href="#slider" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
     </div>
-    <div class="container">
-      <!-- <img class="img-fluid" src="./images/axefxbasicshero.jpg" alt=""> -->
-      <p class="lead"></p>
-      <hr>
-      <p>Axe FX tutorials to program your Fractal Audio Products</p>
-      <a class="btn btn-primary btn-lg"href="#" role="button">Read More</a>
+    <hr>
+</div>
+
+
+<!-- Tutorials -->
+
+
+<section id="tutorials" class="py-5 text-center bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="info-header mb-5">
+          <h1 class="text-dark pb-3">
+            AxeFX Tutorials
+          </h1>
+          <p class="lead pb-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus commodi veniam rem dicta iure mollitia.
+          </p>
+        </div>
+        <!-- accordion -->
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <h5 class="mb-0">
+                <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                <i class="fas fa-arrow-circle-down"></i> Videos 1-3
+                </div>
+              </h5>
+            </div>
+            <div id="collapse1" class="collapse show">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card text-center border-dark">
+                    <h4 class="card-title"> Video 1</h4>
+                    <div id="video-item" class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DiKMOynhNV4" allowfullscreen></iframe>
+                    </div>
+                      <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perspiciatis ad totam veniam consequatur ea reiciendis laborum et est harum.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card text-center border-dark">
+                    <h4 class="card-title"> Video 1</h4>
+                    <div id="video-item" class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DiKMOynhNV4" allowfullscreen></iframe>
+                    </div>
+                      <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perspiciatis ad totam veniam consequatur ea reiciendis laborum et est harum.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card text-center border-dark">
+                    <h4 class="card-title"> Video 1</h4>
+                    <div id="video-item" class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DiKMOynhNV4" allowfullscreen></iframe>
+                    </div>
+                      <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perspiciatis ad totam veniam consequatur ea reiciendis laborum et est harum.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- row 2 -->
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                  <i class="fas fa-arrow-circle-down"></i> Videos 4-6
+                  </div>
+                </h5>
+              </div>
+              <div id="collapse2" class="collapse">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card text-center border-dark">
+                      <h4 class="card-title"> Video 1</h4>
+                      <div id="video-item" class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DiKMOynhNV4" allowfullscreen></iframe>
+                      </div>
+                        <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perspiciatis ad totam veniam consequatur ea reiciendis laborum et est harum.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-center border-dark">
+                      <h4 class="card-title"> Video 1</h4>
+                      <div id="video-item" class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DiKMOynhNV4" allowfullscreen></iframe>
+                      </div>
+                        <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perspiciatis ad totam veniam consequatur ea reiciendis laborum et est harum.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-center border-dark">
+                      <h4 class="card-title"> Video 1</h4>
+                      <div id="video-item" class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DiKMOynhNV4" allowfullscreen></iframe>
+                      </div>
+                        <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perspiciatis ad totam veniam consequatur ea reiciendis laborum et est harum.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- row 3 -->
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> Videos 7-9
+                    </div>
+                  </h5>
+                </div>
+                <div id="collapse3" class="collapse">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card text-center border-dark">
+                        <h4 class="card-title"> Video 1</h4>
+                        <div id="video-item" class="embed-responsive embed-responsive-16by9">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DiKMOynhNV4" allowfullscreen></iframe>
+                        </div>
+                          <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perspiciatis ad totam veniam consequatur ea reiciendis laborum et est harum.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card text-center border-dark">
+                        <h4 class="card-title"> Video 1</h4>
+                        <div id="video-item" class="embed-responsive embed-responsive-16by9">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DiKMOynhNV4" allowfullscreen></iframe>
+                        </div>
+                          <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perspiciatis ad totam veniam consequatur ea reiciendis laborum et est harum.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card text-center border-dark">
+                        <h4 class="card-title"> Video 1</h4>
+                        <div id="video-item" class="embed-responsive embed-responsive-16by9">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DiKMOynhNV4" allowfullscreen></iframe>
+                        </div>
+                          <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perspiciatis ad totam veniam consequatur ea reiciendis laborum et est harum.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+          </div>
+
+
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+</section>
 
-  <br>
 
 
-</div>
 
+<!-- footer -->
+
+<footer id="main-footer" class="bg-dark mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center py-2">
+        <div class="socialMediaLinks">
+          <a href="https://instagram.com/roshroslin" class="fab fa-instagram" target="_blank"></a>
+          <a href="https://twitter.com/roshroslin" class="fab fa-twitter" target="_blank"></a>
+          <a href="https://facebook.com/roshroslin" class="fab fa-facebook-f" target="_blank"></a>
+          <a href="https://youtube.com/roshroslin" class="fab fa-youtube" target="_blank"></a>
+          <a href="mailto:roshroslin@gmail.com" class="fas fa-envelope-square" target="_blank"></a>
+
+
+      </div>
+
+
+        <p class="text-white">copyright &copy; Rosh Roslin <span id ="date">2020</span>. all rights reserved</p>      </div>
+    </div>
+  </div>
+</footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -116,6 +272,52 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/87e8e56679.js" crossorigin="anonymous"></script>
+<script>
+
+
+// get card text to disappear
+// $(function(){
+//     $('.card-text').one("mouseover", function() {
+//         $('.card-text').addClass('cardhover');
+//     });
+// });
+
+//get the current year for the copyright
+$('#year').text(new Date().getFullYear());
+
+//init scrollspy
+
+// $('body').scrollspy({target: '#main-nav'});
+
+//smooth scrolling
+//add smooth scrolling
+
+// $('#main-nav a').on('click',function(event){
+//   //check for hash value
+//   if(this.hash !== ''){
+//     //prevent default behavior
+//     event.preventDefault();
+//
+//     //store hash
+//     const hash = this.hash;
+//
+//     //animate smooth scroll
+//
+//     $('html, body').animate({
+//       scrollTop: $(hash).offset().top
+//     }, 900, function() {
+//       //add hash to URL after scroll
+//
+//       window.location.hash = hash;
+//     })
+//   }
+//
+// });
+
+
+</script>
+
+
 </body>
 
 </html>
