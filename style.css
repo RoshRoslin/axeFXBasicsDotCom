@@ -25,7 +25,7 @@
 } */
 
 
-.card:hover > .card-body {
+/* .card:hover > .card-body {
 
   transform: translateY(10rem);
   opacity: 0;
@@ -33,7 +33,7 @@
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   overflow:hidden;
   animation-fill-mode: forwards;
-}
+} */
 
 
 
